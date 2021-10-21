@@ -1,0 +1,263 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Cla0001/CPEN-21A-CPE-1-1/blob/main/Demo1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wi3rXoz2lm0T"
+      },
+      "source": [
+        "### Introduction to Python Programming"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8X1APG5gmFNz",
+        "outputId": "4d2dd79b-deab-457e-c3c8-b1defb7acc67"
+      },
+      "source": [
+        "b= \"Sally\"\n",
+        "print(type(b))"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "4Lx6WaLwmWSw"
+      },
+      "source": [
+        "### Naming Variables"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0pDrNCpBmazn",
+        "outputId": "2a6405cc-82d3-4ecd-c129-b418979b0e46"
+      },
+      "source": [
+        "a= 'Sally'\n",
+        "A= \"John\"\n",
+        "print(a)\n",
+        "print(A)"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sally\n",
+            "John\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yn4UUH6Um4nB",
+        "outputId": "0046bdab-ab7a-498e-c358-93a3ff6addc3"
+      },
+      "source": [
+        "a, b, c = 0, 1, 2\n",
+        "print(type(a))      #This is a programming using type function\n",
+        "print(b)\n",
+        "print(c)"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n",
+            "1\n",
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W6doFjIancYj",
+        "outputId": "08057d12-56f2-466f-a696-af69862e0338"
+      },
+      "source": [
+        "a= 4.50\n",
+        "print(type(a))"
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'float'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ap1suC66nkk6"
+      },
+      "source": [
+        "### One Value to Multiple Variables"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Fb8eT91FntOa",
+        "outputId": "1614c982-6ce0-492e-afb0-f9018facfdb1"
+      },
+      "source": [
+        "x = y = z = \"four\"\n",
+        "print(x)\n",
+        "print(y)\n",
+        "print(z)"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "four\n",
+            "four\n",
+            "four\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LbaWtyhin8eJ",
+        "outputId": "df905c9e-a654-4980-f464-cef272d33d63"
+      },
+      "source": [
+        "x = \"enjoying\"\n",
+        "print(\"Python programming is\" + \" \" + x)"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Python programming is enjoying\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "m7hYyG3SoUho",
+        "outputId": "4867ce0b-b2ac-4c7a-a679-d2f08624e6ca"
+      },
+      "source": [
+        "x = 4\n",
+        "y = 5\n",
+        "print(x+y)\n",
+        "print(x-y)"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9\n",
+            "-1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lEbL0NbHpDVe",
+        "outputId": "28e2f651-d84a-4e0c-9d29-e8b98ddf02be"
+      },
+      "source": [
+        "not(x>y or x == x)  #This is an example of program using logical operator"
+      ],
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    }
+  ]
+}
